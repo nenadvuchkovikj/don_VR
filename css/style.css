@@ -300,11 +300,13 @@ li{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    flex: 1;
-    
+}
+.section-f > div .picture{
+
+    background: var(--dark-color);
 }
 .section-f > div .picture img{
-    height: 100%;
+    min-height: 100%;
     object-fit: cover;
 }
 .section-f > div .text-VR h1{
